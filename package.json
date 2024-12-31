@@ -4,7 +4,9 @@
   "description": "An interactive educational platform for science and math.",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "dev": "webpack serve",
+    "deploy": "git subtree push --prefix dist origin booxclash-pages"
   },
   "author": "Chilongo Kondwani",
   "license": "MIT",
