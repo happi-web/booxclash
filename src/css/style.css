@@ -158,6 +158,11 @@ strong{
   background-color: white;
   cursor: pointer;
 }
+
+.boxes-items button a{
+  text-decoration: none;
+  color: var(--text-color);
+}
 .boxes-items button:hover
 {
   background-color: var(--primary-color);
