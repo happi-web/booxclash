@@ -172,7 +172,7 @@ footer
 {
   width: 100%;
   box-shadow: var(--box-shadow);
-  height: 10vh;
+  height: auto;
   text-align: center; 
   font-weight: bold;
   padding: 10px; 
