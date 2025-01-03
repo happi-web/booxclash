@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Hunt Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number Hunt Game</h1>
+        <div class="game-info">
+            <p><strong>Target Number:</strong> <span id="targetNumber"></span></p>
+            <p><strong>Time Left:</strong> <span id="timer">30</span> seconds</p>
+            <p><strong>Score:</strong> <span id="score">0</span></p>
+        </div>
+        <div class="grid" id="numberGrid"></div>
+        <button id="startGame" class="start-button">Start Game</button>
+        <p id="gameOverMessage" class="hidden">Game Over! Your final score is <span id="finalScore"></span>.</p>
+        <p id="nextRoundMessage" class="hidden">You’ve advanced to the next round! Find two numbers that add up to the target number.</p>
+    </div>
+
+    <audio id="successSound" src="sound/success.mp3"></audio>
+    <audio id="wrongSound" src="sound/wrong.mp3"></audio>
+    <audio id="gameOverSound" src="sound/game-over.mp3"></audio>
+    <audio id="backgroundSound" src="sound/back.mp3"></audio>
+    <audio id="levelWin" src="sound/back.mp3"></audio>
+
+    <script src="index.js"></script>
+</body>
+</html>
